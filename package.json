@@ -1,0 +1,17 @@
+{
+  "name": "jodis-ims",
+  "version": "1.0.0",
+  "description": "Sales and inventory system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrently \"npm run client\" \"npm run server\" "
+  },
+  "author": "Mart Anthony Salazar",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
