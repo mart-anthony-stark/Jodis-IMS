@@ -1,3 +1,6 @@
 [submodule "client"]
 	path = client
 	url = https://github.com/mart-anthony-stark/Jodis-FE.git
+[submodule "server"]
+	path = server
+	url = https://github.com/mart-anthony-stark/Jodis-BE.git
